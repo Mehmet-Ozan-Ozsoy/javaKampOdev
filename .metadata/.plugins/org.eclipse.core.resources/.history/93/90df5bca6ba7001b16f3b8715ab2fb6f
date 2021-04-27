@@ -1,0 +1,18 @@
+package gun_2_odev_2.classesWithAttributes;
+
+public class ProductManager {
+	/*
+	public void Add(Product product) {		
+		//Daha sonra JDBS kodlarýyla iþlemler yapýlacak.
+		System.out.println(product.name + " sepete eklendi.");
+	}
+	
+	public void Add2(int id, String name, String description, double price, int stockAmount) {		
+		//Þeklinde de yazabilirdin ama ayrýca bir product sýnýfý kullanmadýðý için, main sayfasýnda döndürdüðün... 
+	}	//...koddaki ürünlere yeni bir özellik eklense, Add2'nin parametresine yapacaðýn ekleme nedeniyle hepsi ahata verecekti.
+	*/
+	
+	public void Add(Product product) {
+		
+	}
+}

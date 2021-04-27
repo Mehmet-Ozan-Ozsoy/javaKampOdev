@@ -1,0 +1,13 @@
+package gun_2_odev_1.guncelleme;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		System.out.println("KAYIT OL - KODLAMA.IO\n________");
+		
+		
+
+	}
+
+}

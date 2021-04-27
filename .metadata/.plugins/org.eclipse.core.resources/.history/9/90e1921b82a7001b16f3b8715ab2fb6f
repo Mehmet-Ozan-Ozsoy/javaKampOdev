@@ -1,0 +1,9 @@
+package gun_2_odev_1.guncelleme;
+
+public class Instructor {
+
+	int id;
+	String firstName;
+	String lastName;
+	
+}

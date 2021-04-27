@@ -1,0 +1,41 @@
+package gun_2_odev_2;
+
+public class Methods {
+
+	public static void main(String[] args) {
+		
+		sayiBulmaca();
+		sayiBulmaca();
+		sayiBulmaca();
+		sayiBulmaca();
+
+	}
+	
+	public static void sayiBulmaca() {
+		int[] numbers= new int[] {1,2,5,7,9,0};
+		int wanted=6;
+		boolean varMi=false;
+		
+		for(int i=0;i<numbers.length;i++) {
+			for(int number : numbers) {				
+				if(number==wanted) {
+					varMi=true;
+					break;				
+				}
+			}
+
+		}
+		if(varMi) {
+			MesajVer("Sayý mevcuttur: "+wanted);
+		}else {
+			MesajVer("Sayý mevcut deðildir: "+wanted);
+		}
+	}
+	
+	public static void MesajVer(int aranacak) {
+		System.out.println("Sayý mevcuttur: "+aranacak);
+
+	}
+
+
+}

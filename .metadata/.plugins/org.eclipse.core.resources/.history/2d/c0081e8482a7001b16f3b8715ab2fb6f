@@ -1,0 +1,15 @@
+package gun_2_odev_1.guncelleme;
+
+public class Instructor {
+	
+	public Instructor() {
+		
+	}
+
+	private int _id;
+	private String _TCKimlikNo;
+	private String _firstName;
+	private String _lastName;
+	private String _eMail;
+	
+}

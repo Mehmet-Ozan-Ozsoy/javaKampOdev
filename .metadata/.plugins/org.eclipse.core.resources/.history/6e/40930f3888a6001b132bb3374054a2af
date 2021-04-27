@@ -1,0 +1,23 @@
+package gun_2_canli_tekrar;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Product product1 = new Product();
+		product1.id=1;
+		product1.name="Lenovo V14";
+		product1.unitPrice=15000;
+		product1.details="16 GB Ram";
+		
+		Product product2 = new Product();
+		product2.id=2;
+		product2.name="Lenovo V15";
+		product2.unitPrice=16000;
+		product2.details="32 GB Ram";
+		
+		Product product3 = new Product(3,"HP 5",10000,"8 GB Ram");
+
+	}
+
+}

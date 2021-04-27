@@ -1,0 +1,25 @@
+package gun_2_odev_1.gun_2_odev_1_guncel;
+
+public class CategoryManager {
+	
+	public void Add(Category category) {
+		System.out.println(category.getName() + " eklendi.");
+	}
+	
+	public void Delete(Category category) {
+		
+	}
+	
+	public void Update() {
+		
+	}
+	
+	public void select() {
+		
+	}
+	
+	public void list() {
+		
+	}
+
+}

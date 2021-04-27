@@ -1,0 +1,9 @@
+package gun_2_odev_2;
+
+public class Classes {
+
+}
+
+public class Customer{
+	int id;
+}

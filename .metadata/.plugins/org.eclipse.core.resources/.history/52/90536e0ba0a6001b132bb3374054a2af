@@ -1,0 +1,20 @@
+package gun_2_odev_1;
+
+public class Instructor {
+	
+	public Instructor() {
+		
+	}
+	
+	public Instructor(int id, int TCkimlikNo, String firstName, String lastName) {
+		this();
+		this.id=id;
+		this.name=name;
+	}
+	
+	int id;
+	int TCkimlikNo;
+	String firstName;
+	String lastName;
+
+}

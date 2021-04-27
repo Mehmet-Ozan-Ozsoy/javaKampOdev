@@ -1,0 +1,17 @@
+package gun_2_canli_tekrar;
+
+public class Product {
+	
+	public Product(id,name,unitPrice,details) {
+		this.id=id;
+		this.name=name;
+		this.unitPrice=unitPrice;
+		this.details=details;
+	}
+	
+	int id;
+	String name;
+	int unitPrice;
+	String details;
+
+}

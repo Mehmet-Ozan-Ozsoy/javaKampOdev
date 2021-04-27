@@ -1,0 +1,17 @@
+package gun_2_odev_1;
+
+public class CourseManager {
+	
+	public void addCourseToCart(Course course) {
+		System.out.println(course.name + ", kursu sepete eklendi.");
+	}
+	
+	public void deleteCourse(Course course) {
+		System.out.println(course.name + " kursu sepetten çıkarıldı.");
+	}
+	
+	public void selectCourse(Course course) {
+		System.out.println(course.name + " seçildi.");
+	}
+
+}

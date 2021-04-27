@@ -1,0 +1,9 @@
+package gun_2_odev_1;
+
+public class StudentManager {
+	
+	public void addStudent(Student student) {
+		System.out.println(student.firstName + " " + student.lastName + " eklendi");
+	}
+
+}

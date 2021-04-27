@@ -1,0 +1,57 @@
+package gun_2_odev_1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Category category1 = new Category(1,"Programming");
+		
+		Category[] categories = {category1};
+
+/////////////////////////////////////////////////////////////////////////////////////
+		
+		Instructor instructor1 = new Instructor(1,1234567890,"Engin","Demiroð");
+		
+		Instructor[] instructors = {instructor1};
+		
+/////////////////////////////////////////////////////////////////////////////////////
+		
+		Course course1 = new Course(1, "Java-React");
+		Course course2 = new Course(2, "C#-Angular");
+		Course course3 = new Course(3, "Programlamaya Giriþ Ýçin Temel Kurs");
+		
+		Course[] courses1 = {course1, course2, course3};		//Sadece Engin Demiroð'un verebileceði kurs listesi olduðu için category1 olarak belirttim.
+		
+/////////////////////////////////////////////////////////////////////////////////////
+		
+		System.out.println("Kategori (Tümü):");
+		
+		CategoryManager categoryManager = new CategoryManager();		
+		categoryManager.listCategories(categories);
+		categoryManager.selectCategory(category1);
+		
+		System.out.println("\nEðitmen (Tümü):")
+		
+		InstructorManager instructorManager = new InstructorManager();
+		instructorManager.listInstructors(instructors);
+		instructorManager.selectInstructor(instructor1);
+		
+
+		CourseManager courseManager = new CourseManager();
+		
+		for(Category category : categories) {
+			if(category.name=="Programming") {
+				for(Instructor instructor : instructors) {
+					if(instructor.firstName=="Engin" && instructor.lastName=="Demiroð") {
+						courseManager.listCourses(courses1);
+					}
+				}
+			}
+		}		
+		
+		courseManager.selectCourse(course1);
+		courseManager.addCourseToCart(course1);
+
+	}
+
+}

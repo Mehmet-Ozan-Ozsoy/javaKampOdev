@@ -1,0 +1,7 @@
+package gun_2_odev_1;
+
+public class CategoryManager {
+	
+	public void selectCategory()
+
+}

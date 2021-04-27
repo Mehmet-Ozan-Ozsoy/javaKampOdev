@@ -1,0 +1,19 @@
+package gun_2_odev_2.classesWithAttributes;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Product product1 = new Product();
+		product1.id = 1;
+		product1.name = "Laptop Computer";
+		product1.description = "Asus Laptop";
+		product1.price = 15000;
+		product1.stockAmount = 10;
+		
+		ProductManager productManager = new ProductManager();
+		productManager.Add(product1);
+		
+	}
+
+}

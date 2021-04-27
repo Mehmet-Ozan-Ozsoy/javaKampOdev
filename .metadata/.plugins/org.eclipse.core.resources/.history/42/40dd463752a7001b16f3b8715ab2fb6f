@@ -1,0 +1,9 @@
+package gun_2_odev_2.classes;
+
+public class CustomerManager {
+	
+	public void Add() {
+		System.out.println("Müþteri eklendi.");
+	}
+
+}

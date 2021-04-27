@@ -1,0 +1,16 @@
+package gun_2_odev_1;
+
+public class Instructor {
+	
+	public Instructor() {
+		
+	}
+	
+	public Instructor(int id, String name) {
+		
+	}
+	
+	int id;
+	String name;
+
+}

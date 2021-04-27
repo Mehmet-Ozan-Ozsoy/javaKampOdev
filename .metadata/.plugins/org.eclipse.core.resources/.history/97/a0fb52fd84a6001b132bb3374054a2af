@@ -1,0 +1,11 @@
+package gun_2_canli_tekrar;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Product product1 = new Product();
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package gun_2_odev_1.gun_2_odev_1_guncel;
+
+public class CategoryManager {
+	
+	public void Add(Category category) {
+		System.out.println(category.getName() + " eklendi.");
+	}
+	
+	public void Delete(Category category) {
+		System.out.println(category.getName() + " silindi.");
+	}
+	
+	public void Update(Category category) {
+		System.out.println(category.getName() + " güncellendi.");
+	}
+	
+	public void select(Category category) {
+		System.out.println(category.getName() + " seçildi.");
+	}
+	
+	public void list(Category[] categories) {
+		for(Category category : categories) {
+			System.out.println(category.getId() + "-" + category.getName());
+		}
+	}
+
+}

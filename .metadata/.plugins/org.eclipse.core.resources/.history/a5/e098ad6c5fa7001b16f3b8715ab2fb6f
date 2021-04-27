@@ -1,0 +1,24 @@
+package gun_2_odev_2.classesWithAttributes;
+
+public class Product {
+
+	/*
+	//Attribute / Field bloku
+	int id;						//Java'da bunlar default olarak "public"tir (YANÝ BU ATTRIBUTE ASLINDA GERÝ PLANDA: public int id;). C#'ta ise default hali private olduðu için biz bunu açýk þekilde "public int id;" gibi bir gösterimle yazýyorduk.
+	String name;				//Public, ilgili satýrdaki ifadenin her yerden ulaþýlabilir olmasýný saðlar.
+	String description;
+	double price;
+	int stockAmount;
+	private String colour;		//Private ise, o satýrdaki ifadenin sadece tanýmlandýðý blok içerisinde geçerli olduðunu belirtir.
+								//ENCAPSULATION için biz bu private'ý kullanýyor olacaðýz.								 
+	*/
+	
+	private int id;
+	private String name;
+	String description;
+	double price;
+	int stockAmount;
+	String colour;
+	String code;
+	
+}

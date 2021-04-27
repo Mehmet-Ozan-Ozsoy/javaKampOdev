@@ -1,0 +1,22 @@
+package gun_2_odev_2.reCapDemoClasses;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		DortIslem dortIslem = new DortIslem();
+		
+		int sonuc1 = dortIslem.Topla(3, 4);
+		System.out.println("Toplama: " + sonuc1);
+		
+		int sonuc2 = dortIslem.Cikar(6, 5);
+		System.out.println("Çýkarma: " + sonuc2);
+		
+		int sonuc3 = dortIslem.Carp(7, 8);
+		System.out.println("Çarpma: " + sonuc3);
+		
+		double sonuc4 = dortIslem.Bol(10, 3);
+		System.out.println("Bölme: " + sonuc4);		
+	}
+
+}

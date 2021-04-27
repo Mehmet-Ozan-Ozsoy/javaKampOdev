@@ -1,0 +1,15 @@
+package gun_2_odev_1.guncelleme;
+
+public class User {
+	
+	int id;
+	String TcKimlikNo;
+	String firstName;
+	String lastName;
+	int birthYear;
+	String birthPlace;
+	String eMail;
+	String phone;
+	String address;
+
+}

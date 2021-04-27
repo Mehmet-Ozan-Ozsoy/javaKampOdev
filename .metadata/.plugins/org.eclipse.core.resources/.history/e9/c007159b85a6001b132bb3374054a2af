@@ -1,0 +1,9 @@
+package gun_2_canli_tekrar;
+
+public class Product {
+	int id;
+	String name;
+	int unitPrice;
+	String details;
+
+}

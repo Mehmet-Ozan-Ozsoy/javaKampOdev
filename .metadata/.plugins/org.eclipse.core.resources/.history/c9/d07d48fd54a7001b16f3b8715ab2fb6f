@@ -1,0 +1,15 @@
+package gun_2_odev_2.classes;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		CustomerManager customerManager = new CustomerManager();	//customerManager class'ýndan deðiþkenin stack'tedir. Ona atayacaðýn deðer ise heap'te olacaktýr. Bunun için "new" bir class deðiþkeni tanýmlamalýyýz.  
+		CustomerManager customerManager2 = new CustomerManager();
+		customerManager=customerManager2;							//Ama buradaki gibi, bu deðiþkenin deðerini
+		customerManager.Add();
+		customerManager.Remove();
+		customerManager.Update();
+	}
+
+}

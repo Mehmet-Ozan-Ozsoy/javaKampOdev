@@ -1,0 +1,13 @@
+package gun_2_odev_1.gun_2_odev_1_guncel;
+
+public class Category {
+	
+	public Category() {
+		
+	}
+	
+	
+	private int _id;
+	private String _name;
+
+}

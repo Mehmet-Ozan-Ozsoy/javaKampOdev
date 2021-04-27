@@ -1,0 +1,50 @@
+package gun_2_odev_2;
+
+public class Methods_2 {
+	
+	public static void main(String[] args) {
+		
+		String mesaj="Bugün hava çok güzel.";
+		String yeniMesaj=mesaj.substring(0,2);
+		System.out.println(yeniMesaj);
+		
+		String sehir=sehirVer();
+		System.out.println(sehir);
+		
+		int sonuc=topla(2,5);
+		System.out.println(sonuc);
+		
+		int toplam=topla2(1,2,3,4,5,6,7,8,9);
+		System.out.println(toplam);
+			
+	}	
+	
+	public static void ekle() {
+		System.out.println("Eklendi.");
+	}
+	
+	public static void sil() {
+		System.out.println("Silindi.");		
+	}
+	
+	public static void guncelle() {
+		System.out.println("Güncellendi.");
+	}
+	
+	public static String sehirVer() {
+		return "Ankara";
+	}
+	
+	public static int topla(int sayi1, int sayi2) {
+		return sayi1+sayi2;
+	}
+	
+	public static int topla2(int...sayilar ) { 		//Çoklu sayý deðeri parametre girebilme yöntemi(int...).  Bu örneðimizde, peþpeþe girilen bütün sayýlarý toplar.
+		int toplam=0;								//Hiç deðer yazmazsan 0 döner. 
+		for(int sayi:sayilar) {						//Ýster 1 bir ister daha çok deðer yaz, hepsini iþleme koyacaktýr.
+			toplam+=sayi;			
+		}
+		return toplam;
+	}
+
+}

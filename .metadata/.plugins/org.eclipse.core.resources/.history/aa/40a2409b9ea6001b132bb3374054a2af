@@ -1,0 +1,10 @@
+package gun_2_odev_1;
+
+public class Student {
+	
+	int id;
+	int TCkimilkNo;
+	String firstName;
+	String lastName;
+
+}

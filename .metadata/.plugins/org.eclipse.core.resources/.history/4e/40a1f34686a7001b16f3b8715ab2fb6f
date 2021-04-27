@@ -1,0 +1,10 @@
+package gun_2_odev_1.guncelleme;
+
+public class Course {
+	
+	private int _id;
+	String name;
+	int duration;
+	String code;
+
+}

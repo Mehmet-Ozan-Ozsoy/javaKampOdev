@@ -1,0 +1,91 @@
+package gun_2_odev_2.classesWithAttributes;
+
+public class Product {
+
+	/* 
+	TEMEL YAZIM
+	
+	//Attribute / Field bloku
+	int id;						//Java'da bunlar default olarak "public"tir (YANÝ BU ATTRIBUTE ASLINDA GERÝ PLANDA: public int id;). C#'ta ise default hali private olduðu için biz bunu açýk þekilde "public int id;" gibi bir gösterimle yazýyorduk.
+	String name;				//Public, ilgili satýrdaki ifadenin her yerden ulaþýlabilir olmasýný saðlar.
+	String description;
+	double price;
+	int stockAmount;
+	private String colour;		//Private ise, o satýrdaki ifadenin sadece tanýmlandýðý blok içerisinde geçerli olduðunu belirtir.
+								//ENCAPSULATION için biz bu private'ý kullanýyor olacaðýz.
+								//getter ve setter kullanarak, private olana eriþim saðlayabileceðiz.							 
+
+
+ 	ORTA YAZIM
+ 	
+	private int id;
+	private String name;
+	private String description;
+	private double price;
+	private int stockAmount;
+	private String colour;
+	private String code;
+	
+	
+	public int getId() {
+		//BURADA ÝSTERSEN VERÝTABANINDAN ÝLGÝLÝ VERÝYÝ AYNEN GETÝRSÝN. ÝSTERSEN, ÝÞ ÝHTÝYACINA GÖRE O VERÝYÝ DEÐÝÞTÝREREK DE SUNABÝLÝRSÝN.
+		return id;	//GET YAZILDI DÝYE SET YAZMAK MECBURÝYETÝ YOK. BU ÞEKLÝYLE BIRAKIRSAN SADECE ÝLGÝLÝ VERÝYÝ "OKUYABÝLÝR" (READ-ONLY).
+	}
+	
+	public void setId(int id) {	//SET ÝLE GETÝRÝLEN DEÐERÝ YAZ / KUR ÝÞLEMÝ YAPMIÞ OLUYORUZ.
+		this.id=id;				//Buradaki "this", içinde bulunduðumuz class'ý (product) ifade ediyor. Yani class'ýn id'si, setId'nin id'sine eþitleniyor.
+	}							// SET ÝÇÝN DE GET'ÝN YAZILMA ZORUNLULUÐU YOK. SADECE SET YAZILARAK WRITE-ONLY BÝR ÇALIÞMA DA YAPILABÝLÝR.
+	*/
+	
+	
+	//BEST PRACTICE YAZIM ÞEKLÝ!!!
+	
+	private int _id;
+	private String _name;
+	private String _description;
+	private double _price;
+	private int _stockAmount;
+	private String _colour;
+	private String _code;
+	
+	public int getId() {
+		return _id;
+	}
+	
+	public void setId(int id) {
+		_id=id;
+	}
+
+	public String get_name() {
+		return _name;
+	}
+
+	public void set_name(String _name) {
+		this._name = _name;
+	}
+	
+	public String getDescription() {
+		return _description;
+	}
+
+	public void setDescription(String description) {
+		_description = description;
+	}
+
+	public double getPrice() {
+		return _price;
+	}
+
+	public void setPrice(double price) {
+		_price = price;
+	}
+
+	public int getStockAmount() {
+		return _stockAmount;
+	}
+	
+	public void setStockAmount() {
+		_stockAmount=stockAmount;
+	}
+
+}

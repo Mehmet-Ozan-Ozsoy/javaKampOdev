@@ -1,0 +1,28 @@
+package gun_2_odev_1;
+
+public class Student {
+	
+	public Student() {
+		
+	}
+	
+	public Student(int id, int TCkimlikNo, String firstName, String lastName, String eMail, String phone) {
+		this();
+		this.id=id;
+		this.TCkimlikNo=TCkimlikNo;
+		this.firstName=firstName;
+		this.lastName=lastName;
+		this.eMail=eMail;
+		this.phone=phone;
+	}
+	
+	int id;
+	int TCkimlikNo;
+	String firstName;
+	String lastName;
+	int birthYear;
+	String eMail;
+	String phone;
+	String adress;
+
+}

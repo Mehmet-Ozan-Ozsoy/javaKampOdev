@@ -1,0 +1,9 @@
+package gun_2_odev_1;
+
+public class CategoryManager {
+	
+	public void selectCategory(Category category) {
+		System.out.println(category.name + " seçildi.")
+	}
+
+}

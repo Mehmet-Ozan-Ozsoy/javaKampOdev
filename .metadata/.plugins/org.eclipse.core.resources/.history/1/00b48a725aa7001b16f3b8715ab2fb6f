@@ -1,0 +1,11 @@
+package gun_2_odev_2.classesWithAttributes;
+
+public class ProductManager {
+	
+	public void Add(Product product) {
+		
+		//Daha sonra JDBS kodlarýyla iþlemler yapýlacak.
+		System.out.println(product.name + " sepete eklendi.");
+	}
+
+}

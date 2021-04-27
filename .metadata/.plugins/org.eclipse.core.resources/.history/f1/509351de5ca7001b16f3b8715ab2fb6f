@@ -1,0 +1,13 @@
+package gun_2_odev_2.classesWithAttributes;
+
+public class Product {
+
+	
+	//Attribute / Field bloku
+	int id;
+	String name;
+	String description;
+	double price;
+	int stockAmount;
+	
+}

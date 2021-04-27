@@ -1,0 +1,13 @@
+package gun_2_odev_1.guncelleme;
+
+public class InstructorManager {
+	
+	public void Add() {
+		
+	}
+	
+	public void Delete() {
+		
+	}
+
+}

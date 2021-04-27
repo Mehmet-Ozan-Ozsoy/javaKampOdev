@@ -1,0 +1,17 @@
+package gun_2_odev_2;
+
+public class Methods_2 {
+	
+	public static void ekle() {
+		
+	}
+	
+	public static void sil() {
+		
+	}
+	
+	public static void guncelle() {
+		
+	}
+
+}

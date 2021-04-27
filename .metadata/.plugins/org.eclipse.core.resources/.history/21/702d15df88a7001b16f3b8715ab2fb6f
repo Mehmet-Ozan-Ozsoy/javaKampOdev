@@ -1,0 +1,23 @@
+package gun_2_odev_1.guncelleme;
+
+public class User {
+	
+	private int _id;
+	private String _TcKimlikNo;
+	private String _firstName;
+	private String _lastName;
+	private int _birthYear;
+	private String _birthPlace;
+	private String _eMail;
+	private String _phone;
+	private String _address;
+	
+	public int getId() {
+		return _id;
+	}
+	
+	public void setId(int id) {
+		_id=id;
+	}
+
+}

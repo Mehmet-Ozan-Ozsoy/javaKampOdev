@@ -1,0 +1,28 @@
+package gun_2_odev_1.guncelleme;
+
+public class InstructorManager {
+
+	public void Add(Instructor instructor) {
+		System.out.println(instructor.getFirstName() + " " + instructor.getLastName() + " eðitmen listesine eklendi.");
+	}
+
+	public void Delete(Instructor instructor) {
+		System.out.println(instructor.getFirstName() + " " + instructor.getLastName() + " eðitmen listesinden silindi.");
+	}
+
+	public void Update(Instructor instructor) {
+		System.out.println(
+				instructor.getFirstName() + " " + instructor.getLastName() + " eðitmenine ait bilgiler güncellendi.");
+	}
+
+	public void Select(Instructor instructor) {
+		System.out.println(instructor.getFirstName() + " " + instructor.getLastName() + " seçildi.");
+	}
+
+	public void List(Instructor[] instructors) {
+		System.out.println("|nEÐÝTMEN\n_______\n");
+		for (Instructor instructor : instructors) {
+			System.out.println(instructor.getId() + "-" + instructor.getFirstName() + " " + instructor.getLastName());
+		}
+	}
+}
